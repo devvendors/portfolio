@@ -240,7 +240,8 @@ a:focus {
   width: 15px;
   height: 15px;
   background-color: transparent;
-  border: 3px solid #ffffff;
+  border: 3px solid white;
+  cursor: auto;
   border-radius: 100%;
   opacity: 1;
 }
