@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.background_webdev {
+  background: rgba(0, 0, 0, 0.751) url("../images/website_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.background_android {
+  background: rgba(0, 0, 0, 0.751) url("../images/android_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.background_phpdev {
+  background: rgba(0, 0, 0, 0.751) url("../images/php_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.background_pythondev {
+  background: rgba(0, 0, 0, 0.751) url("../images/python_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.background_websecurity {
+  background: rgba(0, 0, 0, 0.751) url("../images/websecurity_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.background_marketing {
+  background: rgba(0, 0, 0, 0.751) url("../images/marketing_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 50vh;
+}
+.main-container {
+  width: 50vw;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.395);
+  padding: 50px;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.btn {
+  padding: 12px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: lighter;
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.773);
+  cursor: pointer;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    width: 70vw;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.395);
+    padding: 20px;
+    margin-top: 10%;
+    font-size: 12px;
+
+    border-radius: 10px;
+  }
+  .background_webdev {
+    height: 100vh;
+  }
+  .background_android {
+    height: 100vh;
+  }
+  .background_phpdev {
+    height: 100vh;
+  }
+  .background_pythondev {
+    height: 100vh;
+  }
+  .background_websecurity {
+    height: 100vh;
+  }
+  .background_marketing {
+    height: 100vh;
+  }
+}
